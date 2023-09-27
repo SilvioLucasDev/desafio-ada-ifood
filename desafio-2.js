@@ -5,9 +5,9 @@ function wordCounter(phrase) {
     let amount = 1
 
     for (let i = 0; i < phrase.length; i++) {
-        const charAtual = phrase[i]
+        const currentChar = phrase[i]
 
-        if (charAtual === charAtual.toUpperCase()) amount++
+        if (currentChar === currentChar.toUpperCase()) amount++
     }
 
     return amount
